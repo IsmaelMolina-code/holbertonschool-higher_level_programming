@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-import string
 
-alphabet = string.ascii_lowercase
-
-for letter in alphabet:
-    if letter != 'q' and letter != 'e':
-        print(letter, end='')
+for i in range(97, 123):
+    if i != 101 and i != 113:
+        print("{}".format(chr(i)), end='')
