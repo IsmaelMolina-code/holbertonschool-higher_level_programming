@@ -6,7 +6,6 @@ if __name__ == "__main__":
     if arg_num == 1:
         print("{} argument:".format(arg_num))
         print("{}: {}".format(arg_num, arg_list[0]))
-
     elif arg_num == 0:
         print("{} arguments.".format(arg_num))
     else:
