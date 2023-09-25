@@ -1,0 +1,1 @@
+Project to stablish knowledge about JavaScript jQuery
